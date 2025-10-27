@@ -18,7 +18,7 @@ export const projects: Project[] = [
     title: 'PHISHIFIED - Phishing Simulation Suite',
     description:
       'A 360 Degree platform to organize and manage phishing campaigns to analyse employee awareness to phishing attacks.',
-  image: '/images/site/blog-cover1.webp',
+  image: '/images/site/phishified.webp',
     status: 'Ongoing',
     statusColor: 'bg-cyber-green',
     tags: ['Python','Django', 'Phishing Training', "Employee Awareness"],
