@@ -17,71 +17,37 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: 'Blue Team Security Specialist',
-    company: <span>TechCorp Security · Full-time</span>,
-    period: 'Jan 2024 - Present',
-    description: 'Lead defensive security operations including threat detection, incident response, and security monitoring. Design and implement detection rules, conduct threat hunting, and mentor junior analysts in Blue Team methodologies.',
+    title: 'Cybersecurity Intern',
+    company: <span>ShadowFox · Internship</span>,
+    period: 'July-2024 - August 2024',
+    description: 'Conducted a comprehensive security assessment on web apps by identifying potential vulnerabilities and preparing a detailed professional report to provide insightful remediation methods.',
     icon: <Shield size={20} />,
     achievements: [
-      'Designed and deployed 50+ custom SIEM detection rules reducing MTTD by 40%',
-      'Led incident response for 100+ security incidents with 98% successful resolution rate',
-      'Implemented automated threat hunting workflows using Python and Splunk SPL',
-      'Developed security playbooks for ransomware, phishing, and insider threat scenarios',
-      'Conducted regular purple team exercises to validate detection capabilities',
-      'Mentored 3 junior SOC analysts in threat detection and incident response'
+      'Gained hands on skills on VAPT',
+      'Gained hands on tools experience such as NMAP, Wireshark, Nikto, openVAS and Burp Suite',
+      'Understanding of writing a professional vulnerability assessment report to understand client and dev team engagement.'
     ]
   },
   {
-    title: 'SOC Analyst Level 2',
-    company: <span>Global Finance Corp · Full-time</span>,
-    period: 'Jun 2022 - Dec 2023',
-    description: 'Advanced security monitoring and incident investigation in a 24/7 SOC environment. Performed deep-dive analysis of security alerts, threat intelligence integration, and coordination with security teams for incident containment.',
+    title: 'SOC Analyst Intern',
+    company: <span>Chaitanya Cyber Strix Technologies Pvt Ltd · Internship</span>,
+    period: 'Nov 2023 - Dec 2023',
+    description: 'Security monitoring and incident investigation in a  SOC environment. Performed deep-dive analysis of security alerts, threat intelligence integration, and coordination with security teams for incident containment.',
     icon: <Shield size={20} />,
     achievements: [
-      'Triaged and investigated 500+ security incidents across SIEM, EDR, and network tools',
-      'Reduced false positive rate by 35% through alert tuning and correlation rules',
-      'Integrated threat intelligence feeds (MISP, AlienVault OTX) with SIEM platform',
-      'Created comprehensive incident reports for management and compliance teams',
-      'Performed malware analysis and forensic investigation of compromised systems',
-      'Developed documentation and training materials for L1 analysts'
+      'Gained hands on experience in monitoring ,detecting and analyzing security events using Splunk and Elastic SIEM.',
+      'Supported threat hunting activities using log analyses and IOC searches.',
+      'Learned SIEM dashboard queries to investigate alerts.',
+      'Learned and applied MITRE ATT&CK framework for categorizing mapping adversial techniques.'  
     ]
   },
-  {
-    title: 'SOC Analyst Level 1',
-    company: <span>CyberDefense Solutions · Full-time</span>,
-    period: 'Mar 2021 - May 2022',
-    description: 'First-line security monitoring and alert triage in enterprise SOC. Monitored security events from SIEM, firewalls, IDS/IPS, and endpoint protection platforms. Escalated confirmed incidents to senior analysts.',
-    icon: <Settings size={20} />,
-    achievements: [
-      'Monitored and triaged 1000+ daily security alerts across multiple platforms',
-      'Achieved 95% SLA compliance for alert response times',
-      'Identified and escalated 50+ confirmed security incidents',
-      'Performed initial containment actions for phishing and malware incidents',
-      'Maintained detailed incident documentation and tracking in SOAR platform',
-      'Completed SANS SEC401 training and applied learnings to daily operations'
-    ]
-  },
-  {
-    title: 'IT Support Specialist / Junior Security Analyst',
-    company: <span>Enterprise Tech Services · Full-time</span>,
-    period: 'Aug 2019 - Feb 2021',
-    description: 'Provided technical support while transitioning to security role. Gained hands-on experience with security tools, vulnerability management, and basic incident response. Supported security team with log analysis and security patching.',
-    icon: <Settings size={20} />,
-    achievements: [
-      'Resolved 200+ IT support tickets monthly with 98% satisfaction rating',
-      'Assisted security team with vulnerability scanning and patch management',
-      'Performed basic log analysis for security investigations',
-      'Deployed security agents (EDR, DLP) across 500+ endpoints',
-      'Created user security awareness training materials',
-      'Obtained CompTIA Security+ certification while working full-time'
-    ]
-  }
+  
 ];
 
 export default function ExperienceSection() {
   const title = 'Professional Experience';
   const subtitle = 'TIMELINE';
-  const description = 'From physics lab to Blue Team. Each experience shaped my analytical approach to cyber defense.';
+  const description = 'What began with risky downloads turned into a passion for protecting the digital world.';
   const achievementsLabel = 'Key Achievements:';
   
   return (

@@ -169,7 +169,7 @@ NEXT_PUBLIC_GA_ID=# Optional analytics
 
 - **Lines of Code**: ~3,500
 - **Components**: 25+
-- **Pages**: 8 (Home, About, Blog, Projects, Experience, Formation, Contact, Homelabs)
+- **Pages**: 8 (Home, About, Blog, Projects, Experience, Academics, Contact, Homelabs)
 - **Build Time**: ~30 seconds
 - **Bundle Size**: 137KB (First Load JS)
 

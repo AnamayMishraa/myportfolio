@@ -48,10 +48,10 @@ export const NAV_ITEMS: NavItem[] = [
     href: '/homelabs' 
   },
   { 
-    id: 'formation', 
+    id: 'academics', 
     icon: GraduationCap, 
-    label: 'Formation', 
-    href: '/formation' 
+    label: 'Academics', 
+    href: '/academics' 
   },
   { 
     id: 'experience', 
@@ -83,14 +83,14 @@ export const SOCIAL_ITEMS: NavItem[] = [
     icon: Linkedin,
     label: 'LinkedIn',
     isExternal: true,
-    href: 'https://linkedin.com/in/your-linkedin-username'
+    href: 'https://linkedin.com/in/anamay-mishra'
   },
   {
     id: 'github',
     icon: Github,
     label: 'GitHub',
     isExternal: true,
-    href: 'https://github.com/yourusername'
+    href: 'https://github.com/AnamayMishraa'
   },
   {
     id: 'twitter',

@@ -85,7 +85,7 @@ export default function HomelabsClient({ labs, featured, focusAreas, difficultie
               transition={{ delay: 0.35 }}
               className="mt-6 text-lg text-cyber-gray-light"
             >
-              Blueprinted environments I run at home to pressure-test detections, rehearse incident response, and validate purple team strategies. Each lab ships with scenario context, required tooling, and success metrics.
+              Blueprinted home lab environments built to pressure-test detections, analyze malware, rehearse incident response, and validate purple team strategies. Each setup includes scenario context, essential tooling, and measurable success metrics.
             </m.p>
             <m.div
               initial={{ scaleX: 0 }}

@@ -15,53 +15,53 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'SIEM Analytics Dashboard',
+    title: 'PHISHIFIED - Phishing Simulation Suite',
     description:
-      'Enterprise security information and event management (SIEM) analytics dashboard with real-time threat detection, automated incident response workflows, and comprehensive security metrics visualization. Built with security-first principles including role-based access control, encrypted data transmission, and audit logging.',
+      'A 360 Degree platform to organize and manage phishing campaigns to analyse employee awareness to phishing attacks.',
   image: '/images/site/blog-cover1.webp',
-    status: 'Example Project',
+    status: 'Ongoing',
     statusColor: 'bg-cyber-green',
-    tags: ['Python', 'Elastic Stack', 'Splunk', 'Security Analytics', 'Threat Detection', 'DevSecOps'],
+    tags: ['Python','Django', 'Phishing Training', "Employee Awareness"],
     links: {
-      github: 'https://github.com/yourusername/siem-dashboard',
-      demo: 'https://demo.example.com',
+      github: 'https://github.com/AnamayMishraa/Phishified-Phishing-Simulation-Suite',
+      demo: '',
     },
   },
   {
-    title: 'Automated Threat Intelligence Platform',
+    title: 'Silly Putty Malware Analyses',
     description:
-      'Open-source threat intelligence aggregation platform that collects, correlates, and analyzes indicators of compromise (IOCs) from multiple feeds. Includes MITRE ATT&CK mapping, automated threat scoring, and integration with popular security tools. Designed for SOC teams to enhance threat hunting capabilities.',
+      'SillyPutty Malware Analysis involved conducting in-depth static and dynamic examination of the SillyPutty malware sample to understand its behavior, persistence mechanisms, and payload execution. The analysis focused on identifying its C2 communication, obfuscation techniques, and indicators of compromise, providing insights into how such loaders operate within Windows environments.',
   image: '/images/site/blog-cover2.webp',
-    status: 'Open Source',
+    status: 'Archived',
     statusColor: 'bg-cyber-cyan',
-    tags: ['Threat Intelligence', 'MITRE ATT&CK', 'Python', 'API Integration', 'SOC Tools', 'Security Automation'],
+    tags: ['Malware Analyses', 'Behavioural Analyses', 'Static Analyses', 'Dynamic Analyses'],
     links: {
-      github: 'https://github.com/yourusername/threat-intel-platform',
+      github: 'https://github.com/AnamayMishraa/SillyPutty-MalwareAnalysesFindingsReport',
     },
   },
   {
-    title: 'Security Orchestration Automation',
+    title: 'Invisilogger - Simple Python Keylogger',
     description:
-      'Security orchestration, automation and response (SOAR) playbooks for common incident response scenarios. Automates repetitive security tasks including phishing analysis, malware triage, and vulnerability management. Integrates with leading SIEM, EDR, and ticketing systems for streamlined security operations.',
+      'A simple Python-based keylogger designed for educational and ethical cybersecurity learning. It records keystrokes locally to demonstrate how keylogging works at a fundamental level and how such behavior can be detected and mitigated during security assessments. Built to enhance understanding of malware behavior and defense mechanisms.',
   image: '/images/site/blog-cover1.webp',
-    status: 'Active Development',
+    status: 'Completed',
     statusColor: 'bg-cyber-green',
-    tags: ['SOAR', 'Security Automation', 'Incident Response', 'Python', 'API', 'Integration'],
+    tags: ['Python', 'Keylogging'],
     links: {
-      github: 'https://github.com/yourusername/soar-playbooks',
-      demo: 'https://demo.example.com',
+      github: 'https://github.com/AnamayMishraa/Invisilogger-Advance-Keylogger',
+      demo: '',
     },
   },
-  {
-    title: 'Blue Team Security Portfolio',
-    description:
-      'Professional cybersecurity portfolio template with integrated blog system using MDX, modern Next.js architecture, and responsive design. Features technical articles on threat hunting, SIEM operations, incident response, and security operations with optimized static rendering and security-hardened configuration.',
-    image: 'current-site',
-    status: 'Production',
-    statusColor: 'bg-cyber-green',
-    tags: ['Next.js', 'MDX Blog', 'TypeScript', 'Security', 'SSG', 'Responsive'],
-    links: {
-      github: 'https://github.com/yourusername/portfolio',
-    },
-  },
+  // {
+  //   title: 'Blue Team Security Portfolio',
+  //   description:
+  //     'Professional cybersecurity portfolio template with integrated blog system using MDX, modern Next.js architecture, and responsive design. Features technical articles on threat hunting, SIEM operations, incident response, and security operations with optimized static rendering and security-hardened configuration.',
+  //   image: 'current-site',
+  //   status: 'Production',
+  //   statusColor: 'bg-cyber-green',
+  //   tags: ['Next.js', 'MDX Blog', 'TypeScript', 'Security', 'SSG', 'Responsive'],
+  //   links: {
+  //     github: 'https://github.com/yourusername/portfolio',
+  //   },
+  // },
 ];

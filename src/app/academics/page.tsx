@@ -1,14 +1,14 @@
 'use client';
 
 import { Header, FloatingNav } from '@/components/layout';
-import { Formation as FormationSection } from '@/components/pages';
+import { Academics as AcademicsSection } from '@/components/pages';
 
-export default function FormationPage() {
+export default function AcademicsPage() {
   return (
   <main className="relative min-h-screen cyber-bg-animated">
       <Header />
       <FloatingNav />
-      <FormationSection />
+      <AcademicsSection />
     </main>
   );
 }

@@ -53,7 +53,7 @@ export default function BlogSectionClient({ featuredPost, recentPosts, allCatego
             KNOWLEDGE SHARING
           </m.p>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Thanks for reading my logs...
+            Thanks for reading my blogs...
           </h2>
           <p className="text-cyber-gray-light text-lg max-w-2xl mx-auto mb-6">
             My technical articles & insights on Cybersecurity

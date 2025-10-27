@@ -122,7 +122,7 @@ export default function ContactSection() {
             <div className="flex items-center gap-4">
               <div className="h-px w-16 bg-gradient-to-r from-transparent to-cyber-cyan/30" />
               <TypewriterAnimation
-                text="by ~/yourusername"
+                text="by ~/anamaymishra"
                 speed={150}
                 className="text-2xl font-bold"
                 delay={1000}
@@ -130,10 +130,10 @@ export default function ContactSection() {
               <div className="h-px w-16 bg-gradient-to-l from-transparent to-cyber-cyan/30" />
             </div>
             <TypewriterAnimation
-              text="[OK] Fighting digital entropy since 2025..."
-              speed={150}
+              text="[OK]Learning, breaking, and defending since 2023...."
+              speed={400}
               className="text-lg font-mono text-cyber-gray-light"
-              delay={1400}
+              delay={1000}
             />
           </m.div>
         </div>

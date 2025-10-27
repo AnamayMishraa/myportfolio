@@ -9,7 +9,7 @@ import { siteConfig } from '@/config/site.config';
 // Dynamic imports for below-the-fold content
 const ProjectsPreview = dynamic(() => import('@/components/home/ProjectsPreview'));
 const BlogPreview = dynamic(() => import('@/components/home/BlogPreview'));
-const FormationSection = dynamic(() => import('@/components/pages/Formation'));
+const AcademicsSection = dynamic(() => import('@/components/pages/Academics'));
 const ExperienceSection = dynamic(() => import('@/components/pages/Experience'));
 const ContactSection = dynamic(() => import('@/components/pages/Contact'));
 
@@ -24,7 +24,7 @@ export const metadata: Metadata = generateSEO({
 export default function Home() {
   // English translations
   const homeTranslations = {
-    badge: 'Blue Team | Defensive Security',
+    badge: 'IT - Security',
     title: siteConfig.author.name,
     codename: siteConfig.codename,
     tagline: siteConfig.author.tagline,
@@ -53,8 +53,8 @@ export default function Home() {
         <HomelabPreview />
       </section>
       
-      <section id="formation" aria-labelledby="formation-heading">
-        <FormationSection />
+      <section id="academics" aria-labelledby="acedemics-heading">
+        <AcademicsSection />
       </section>
       
       <section id="experience" aria-labelledby="experience-heading">

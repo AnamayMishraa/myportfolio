@@ -14,8 +14,8 @@ export const socialConfig = {
    * https://linkedin.com/in/YOUR-USERNAME
    */
   linkedin: {
-    username: 'your-linkedin-username',
-    url: 'https://linkedin.com/in/your-linkedin-username',
+    username: 'anamay-mishra',
+    url: 'https://linkedin.com/in/anamay-mishra',
     label: 'LinkedIn',
   },
 
@@ -24,32 +24,34 @@ export const socialConfig = {
    * Your GitHub username
    */
   github: {
-    username: 'your-github-username',
-    url: 'https://github.com/your-github-username',
+    username: 'AnamayMishraa',
+    url: 'https://github.com/AnamayMishraa',
     label: 'GitHub',
   },
 
-  /**
-   * Twitter/X profile
-   * Your Twitter/X handle (without the @ symbol)
-   */
+  
+  //  * Twitter/X profile
+  //  * Your Twitter/X handle (without the @ symbol)
+  
+  
   twitter: {
     username: 'your-twitter-handle',
     handle: '@your-twitter-handle',
     url: 'https://twitter.com/your-twitter-handle',
     label: 'X (Twitter)',
   },
+  
 
   /**
    * Additional social platforms (optional)
    * Uncomment and configure as needed:
    */
 
-  // email: {
-  //   address: 'your.email@example.com',
-  //   url: 'mailto:your.email@example.com',
-  //   label: 'Email',
-  // },
+     email: {
+     address: 'anamaymishra26@gmail.com',
+     url: 'mailto:anamaymishra26@gmail.com',
+     label: 'Email',
+   },
 
   // mastodon: {
   //   username: '@yourusername@mastodon.social',

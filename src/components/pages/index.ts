@@ -3,5 +3,5 @@
 
 export { default as Contact } from './Contact';
 export { default as Experience } from './Experience';
-export { default as Formation } from './Formation';
+export { default as Academics } from './Academics';
 export { default as Projects } from './Projects';

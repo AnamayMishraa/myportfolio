@@ -12,15 +12,15 @@ export const siteConfig = {
    * Site identity and branding
    * Replace with your name and professional details
    */
-  name: 'Your Name - Cybersecurity Professional',
-  codename: 'your-handle', // Your preferred username/handle
+  name: 'Anamay Mishra - Cybersecurity Researcher',
+  codename: 'Gh05tWa1ch', // Your preferred username/handle
   author: {
-    name: 'Your Full Name',
-    codename: 'your-handle',
-    jobTitle: 'Cybersecurity Specialist | Blue Team', // Your professional title
-    tagline: 'Your professional tagline or motto',
-    description: 'Your professional bio. Describe your background, expertise, and what makes you unique in the cybersecurity field.',
-    organization: 'Your Organization or Independent',
+    name: 'Anamay Mishra',
+    codename: 'Gh05tWa1ch',
+    jobTitle: 'Cybersecurity Researcher ', // Your professional title
+    tagline: 'Vigiliance in every packet',
+    description: 'Cybersecurity Researcher skilled in SOC operations, Threat Hunting, Vulnerability Analyses, Malware Analysis, and Digital Forensics, exploring both Red and Blue team domains to strengthen digital defense.',
+    organization: 'Cybersecurity',
   },
 
   /**
@@ -28,8 +28,8 @@ export const siteConfig = {
    * Update with your actual domain
    */
   urls: {
-    base: 'https://yourdomain.com',
-    canonical: 'https://yourdomain.com',
+    base: 'https://cybertified.in',
+    canonical: 'https://cybertified.in',
   },
 
   /**
@@ -37,11 +37,12 @@ export const siteConfig = {
    * Customize for better search engine optimization
    */
   seo: {
-    title: 'Your Name - Cybersecurity Professional Portfolio',
-    description: 'Professional portfolio showcasing cybersecurity projects, blog posts, and expertise. Specializing in [your specializations].',
+    title: 'Anamay Mishra - Cybersecurity Professional Portfolio',
+    description: 'Professional portfolio showcasing cybersecurity projects, blog posts, and expertise. Specializing in Security Operations, Vulnerability Assessments and Penetration Testing, Malware Analyses and Digital Forensics Investigation.',
     keywords: [
       'cybersecurity',
       'blue team',
+      'red team',
       'defensive security',
       'security analyst',
       'SOC analyst',
@@ -49,8 +50,7 @@ export const siteConfig = {
       'incident response',
       'threat hunting',
       'security operations',
-      'your name', // Replace with your actual name
-      'your handle', // Replace with your handle
+      'Anamay Mishra', // Replace with your actual name
     ],
   },
 
@@ -83,7 +83,7 @@ export const siteConfig = {
    */
   education: [
     {
-      name: 'Your University Name',
+      name: 'Dr. A.P.J Abdul Kalam Technical University Lucknow UP',
       type: 'EducationalOrganization',
     },
     // Add more education entries as needed
@@ -101,7 +101,10 @@ export const siteConfig = {
     'Threat Hunting',
     'Security Operations Center',
     'Defensive Security',
-    // Add your specific expertise areas
+    'Red Team Operations',
+    'Vulnerability Analyses',
+    'Phishing Analyses',
+    'Malware Analyses',
   ],
 } as const;
 

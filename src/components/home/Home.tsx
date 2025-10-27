@@ -20,7 +20,7 @@ interface HomeSectionProps {
 
 function HomeSection({ translations }: HomeSectionProps) {
   const defaultTranslations: HomeTranslations = {
-    badge: 'Blue Team | Defensive Security',
+    badge: 'IT- Security',
     title: siteConfig.author.name,
     codename: siteConfig.codename,
     tagline: siteConfig.author.tagline,

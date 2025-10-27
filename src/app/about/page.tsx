@@ -48,7 +48,7 @@ export default function AboutPage() {
                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-cyber-teal-dark/50 border border-cyber-cyan/30 rounded-full mb-4">
                   <div className="w-2 h-2 bg-cyber-green rounded-full animate-pulse" />
                   <span className="text-sm text-cyber-gray-light font-mono">
-                    Blue Team | Defensive Security
+                    IT Security
                   </span>
                 </div>
 
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 </h1>
 
                 <p className="text-xl text-cyber-gray-light leading-relaxed max-w-2xl md:max-w-none">
-                  Cybersecurity professional focused on Blue Team defense operations, threat detection, and building resilient security architectures.
+                  Cybersecurity enthusiast exploring both the red and blue sides of defense—focused on SOC operations, threat hunting, VAPT, malware analysis, and DFIR.
                 </p>
               </div>
             </div>
@@ -76,27 +76,27 @@ export default function AboutPage() {
 
               <div className="space-y-4 text-cyber-gray-light leading-relaxed">
                 <p>
-                  As a dedicated cybersecurity professional, I specialize in defensive security operations with a focus on threat detection, incident response, and security monitoring. My approach combines technical expertise with strategic thinking to build resilient security architectures.
+                  I’m a cybersecurity professional driven by curiosity and a deep interest in how threats operate and how systems can be defended against them. My focus lies in exploring both the Red and Blue sides of security—building a holistic understanding of the entire threat landscape.
                 </p>
 
                 <p>
-                  My work centers on understanding attacker methodologies and translating threat intelligence into actionable defenses. I regularly work with security tools like SIEM platforms, EDR solutions, and threat intelligence feeds to identify and neutralize threats before they impact operations.
+                  My technical interests span SOC operations, threat hunting, vulnerability assessment and penetration testing (VAPT), malware analysis, and digital forensics & incident response (DFIR). I approach cybersecurity as both an analytical and creative challenge, blending structured defense with adversarial thinking.
                 </p>
 
                 <p>
-                  I believe in continuous learning and staying current with the evolving threat landscape. My analytical approach to problem-solving helps me anticipate attack vectors, tune detection rules, and improve security posture through data-driven decisions.
+                  Through hands-on practice in home labs and project-based learning, I’ve developed skills in analyzing attack patterns, simulating real-world intrusions, and strengthening detection capabilities. These environments help me continuously refine my practical knowledge of tools, techniques, and frameworks used by both attackers and defenders.
                 </p>
 
                 <p>
-                  Throughout my career, I&apos;ve developed expertise in security operations center (SOC) operations, threat hunting, and incident response. I enjoy the challenge of defending against sophisticated adversaries and collaborating with teams to strengthen organizational security.
+                  I’m particularly fascinated by malware behavior—how it evades detection, persists, and communicates—and how defensive strategies can be engineered to counter such threats. My work often involves dissecting payloads, tracking indicators of compromise, and leveraging insights to fine-tune detection mechanisms.
                 </p>
 
                 <p>
-                  I&apos;m passionate about the defensive side of cybersecurity and committed to advancing my skills in threat intelligence, security automation, and detection engineering. My goal is to contribute to building more secure digital environments through proactive defense strategies.
+                  Beyond tools and techniques, I believe strong cybersecurity comes from mindset and adaptability. I stay engaged with new threat trends, emerging technologies, and industry research to anticipate evolving attack surfaces and build more resilient defenses.
                 </p>
 
                 <p>
-                  Looking forward, I&apos;m focused on growing my expertise in advanced threat detection, security architecture, and contributing to the broader cybersecurity community through knowledge sharing and collaboration.
+                  Looking ahead, I aim to grow as a well-rounded cybersecurity specialist—deepening my expertise in threat detection, purple teaming, and automated defense engineering while contributing to a safer, more secure digital ecosystem.
                 </p>
               </div>
             </m.div>
@@ -112,8 +112,7 @@ export default function AboutPage() {
                 <Shield className="text-cyber-cyan mb-4" size={32} />
                 <h3 className="text-xl font-bold text-white mb-3">Defensive Security</h3>
                 <p className="text-cyber-gray leading-relaxed">
-                  Specializing in threat detection, incident response, and security monitoring.
-                  Building robust defenses through understanding attacker methodologies.
+                  Focused on threat detection, incident response, and continuous security monitoring. I strengthen defenses by understanding adversarial tactics and leveraging them to build resilient protection mechanisms.
                 </p>
               </div>
 
@@ -121,8 +120,7 @@ export default function AboutPage() {
                 <Brain className="text-cyber-green mb-4" size={32} />
                 <h3 className="text-xl font-bold text-white mb-3">Analytical Thinking</h3>
                 <p className="text-cyber-gray leading-relaxed">
-                  Applying scientific methodology to cybersecurity challenges. Breaking down complex
-                  problems into manageable components for systematic analysis.
+                  I approach cybersecurity challenges with a structured, scientific mindset — deconstructing complex issues into clear, actionable parts for precise and effective solutions.
                 </p>
               </div>
 
@@ -130,8 +128,7 @@ export default function AboutPage() {
                 <Zap className="text-cyber-orange mb-4" size={32} />
                 <h3 className="text-xl font-bold text-white mb-3">Rapid Response</h3>
                 <p className="text-cyber-gray leading-relaxed">
-                  Quick identification and mitigation of security incidents. Minimizing impact
-                  through efficient triage and coordinated response procedures.
+                  Skilled in swift detection and containment of security incidents. I minimize impact through efficient triage, real-time decision-making, and coordinated response strategies..
                 </p>
               </div>
 
@@ -139,8 +136,7 @@ export default function AboutPage() {
                 <Target className="text-cyber-cyan mb-4" size={32} />
                 <h3 className="text-xl font-bold text-white mb-3">Threat Hunting</h3>
                 <p className="text-cyber-gray leading-relaxed">
-                  Proactive identification of threats before they manifest. Using data analysis
-                  and pattern recognition to detect anomalies and potential compromises.
+                  Dedicated to proactively uncovering hidden threats before they escalate. I apply data-driven analysis and pattern recognition to identify anomalies and early indicators of compromise..
                 </p>
               </div>
             </m.div>
@@ -156,21 +152,15 @@ export default function AboutPage() {
 
               <div className="space-y-4 text-cyber-gray-light leading-relaxed">
                 <p className="text-lg">
-                  <span className="text-cyber-cyan font-mono">&ldquo;Defense through understanding, detection through vigilance.&rdquo;</span>
+                  <span className="text-cyber-cyan font-mono">&ldquo;Adapt faster than the threat. Secure smarter than the attacker.&rdquo;</span>
                 </p>
 
                 <p>
-                  Effective cybersecurity requires more than just implementing tools and controls.
-                  It demands a deep understanding of both attacker tactics and defender capabilities.
-                  My mission is to maintain strong security postures through continuous monitoring,
-                  proactive threat hunting, and data-driven defense strategies.
+                  Cybersecurity, to me, is the art of equilibrium — where offense sharpens defense, and intelligence fuels resilience. It’s not just about building barriers but about understanding every layer of the digital ecosystem — from how vulnerabilities are born to how adversaries exploit them. I believe in approaching security with curiosity and creativity, blending attacker insight with defender strategy to craft smarter, adaptive solutions.
                 </p>
 
                 <p>
-                  Every security incident is an opportunity to learn and improve. Every vulnerability
-                  discovered is a chance to strengthen defenses. This mindset of continuous improvement
-                  and adaptation drives my approach to cybersecurity and keeps me motivated in the
-                  ever-evolving landscape of information security.
+                  In an era where threats evolve faster than signatures, I see cybersecurity as a living discipline — one driven by observation, experimentation, and continuous learning. My focus is on transforming awareness into action, complexity into clarity, and data into decisions that strengthen both sides of the cyber battlefield.
                 </p>
               </div>
             </m.div>

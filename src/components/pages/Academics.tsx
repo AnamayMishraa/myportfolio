@@ -17,112 +17,112 @@ interface Education {
   description: string;
   period: string;
   icon?: ReactNode;
-  type: 'degree' | 'postgrad' | 'certification';
+  type: 'degree' | 'postgrad'| 'School' | 'certification';
   verificationLink?: string;
   credentialId?: string;
-  status?: 'paused' | 'in-progress' | 'coming-soon';
+  status?: 'paused' | 'in-progress'| 'completed' | 'coming-soon';
   extraSections?: ExtraSection[];
 }
 
 const educationData: Education[] = [
   // Academic Degrees
   {
-    title: 'Bachelor in Computer Science or Cybersecurity',
-    organization: 'University of Cambridge',
-    description: 'My plan is to start another degree next year to improve my academic and technological foundation. I plan to pursue a degree in Computer Science because I enjoy the fundamental and more abstract knowledge (in this case, I\'ll focus on a postgraduate degree in Cybersecurity), but depending on opportunities, I may pursue a cybersecurity degree directly.',
-    period: '2026 - 2030 (Expected)',
+    title: 'Bachelor of Technology- Computer Science & Engineering',
+    organization: 'Dr. APJ Abdul Kalam Technical University',
+    description: 'Focused on core concepts of computing, programming, and cybersecurity.Developed strong foundations in data structures, algorithms, networking, and operating systems, along with hands-on experience in Python, web technologies, and security fundamentals. Gained exposure to software development, ethical hacking, and system analysis, building a problem-solving mindset essential for the cybersecurity field.',
+    period: '2021 - 2025 ',
     icon: '💻',
     type: 'degree',
     extraSections: [
       {
-        title: 'Academic Projects',
-        items: ['I intend to conduct research in the area of Artificial Intelligence for anomaly detection.'],
+        title: 'Mental Health Detection using AI Chatbot.',
+        items: ['The project aimed at researching about different ML models such as Random Forest and SVM for detecting mental health problems.'],
         accent: 'cyan',
       },
     ],
   },
-  {
-    title: 'Bachelor of Science in Physics',
-    organization: 'Massachusetts Institute of Technology (MIT)',
-    description: 'Comprehensive physics education with emphasis on theoretical foundations, quantum mechanics, statistical physics, and computational modeling. Strong mathematical and analytical training applicable to cybersecurity threat analysis.',
-    period: '2016 - 2022',
-    icon: '⚛️',
-    type: 'degree',
-    extraSections: [
-      {
-        title: 'Research Projects',
-        items: [
-          'Experimental detection of cosmic radiation using cloud chamber technology.',
-          'Science outreach programs for underserved communities and rural areas.',
-          'Active participation in academic conferences with presentations and organizational roles.',
-        ],
-        accent: 'cyan',
-      },
-    ],
-  },
+  // {
+  //   title: 'Bachelor of Science in Physics',
+  //   organization: 'Massachusetts Institute of Technology (MIT)',
+  //   description: 'Comprehensive physics education with emphasis on theoretical foundations, quantum mechanics, statistical physics, and computational modeling. Strong mathematical and analytical training applicable to cybersecurity threat analysis.',
+  //   period: '2016 - 2022',
+  //   icon: '⚛️',
+  //   type: 'degree',
+  //   extraSections: [
+  //     {
+  //       title: 'Research Projects',
+  //       items: [
+  //         'Experimental detection of cosmic radiation using cloud chamber technology.',
+  //         'Science outreach programs for underserved communities and rural areas.',
+  //         'Active participation in academic conferences with presentations and organizational roles.',
+  //       ],
+  //       accent: 'cyan',
+  //     },
+  //   ],
+  // },
   // Postgraduate Studies
   {
-    title: 'Master\'s in Applied Physics and Materials Science',
-    organization: 'California Institute of Technology (Caltech)',
-    description: 'Advanced research in condensed matter physics and topological materials. Project focused on quantum properties of Bi₂Se₃ and Bi₂Te₃ topological insulators under magnetic field influence. Paused due to career transition to cybersecurity.',
-    period: '2025 - Paused',
-    icon: '⚛️',
+    title: 'Secondary Education (Class Xth)',
+    organization: 'Delhi Public School',
+    description: 'Studied a broad curriculum including English, Hindi, Mathematics, Science, and Social Studies. Developed conceptual understanding across multiple disciplines and strengthened logical reasoning and communication skills.',
+    period: '2018 - 2019',
+    icon: '📖',
     type: 'postgrad',
-    status: 'paused'
+    status: 'completed'
   },
   {
-    title: 'Master of Science in Cybersecurity',
-    organization: 'Stanford University',
-    description: 'Advanced graduate program specializing in defensive cybersecurity, threat intelligence, incident response, and security operations. Focus on Blue Team methodologies and security architecture.',
-    period: 'To start in ~2027',
-    icon: '🛡️',
+    title: 'Higher Secondary Education (Class XII)',
+    organization: 'Delhi Public School',
+    description: 'Focused on core science subjects — Physics, Chemistry, and Mathematics — with additional emphasis on English and Physical Education.',
+    period: '2020-2021',
+    icon: '📖',
     type: 'postgrad',
-    status: 'coming-soon'
+    status: 'completed'
   },
   // Certifications
   {
-    title: 'CompTIA Security+',
-    organization: 'CompTIA',
-    description: 'Industry-leading certification in cybersecurity fundamentals, covering network security, threats, and vulnerabilities. Currently studying for exam preparation.',
-    period: 'In Progress',
+    title: 'Google Cybersecurity Professional Certificate',
+    organization: 'Google',
+    description: 'Industry-leading certification in cybersecurity fundamentals, covering network security, threats, and vulnerabilities.',
+    period: '2023',
     icon: <ShieldAlert className="w-7 h-7 text-red-400" aria-hidden />,
     type: 'certification',
-    status: 'in-progress',
-    verificationLink: 'https://verify.comptia.org/placeholder',
-    credentialId: 'SEC+-IN-PROGRESS'
+    status: 'completed',
+    verificationLink: 'https://www.coursera.org/account/accomplishments/specialization/certificate/GUJR6NR3SGRZ',
+    credentialId: 'GUJR6NR3SGRZ'
   },
   {
-    title: 'Certified Ethical Hacker (CEH)',
-    organization: 'EC-Council',
-    description: 'Advanced certification in ethical hacking methodologies, penetration testing, and vulnerability assessment. Planned after Security+ completion.',
-    period: 'Planned 2026',
+    title: 'SOC Level 1 Course Path',
+    organization: 'TryHackMe',
+    description: 'Hands-on learning path focused on SIEM monitoring, threat detection, and incident response with Cyber Threat Intelligence and DFIR. Built a strong foundation in Blue Team operations through practical, real-world security scenarios.',
+    period: '2025',
     icon: '🔐',
     type: 'certification',
-    status: 'coming-soon',
-    verificationLink: 'https://verify.eccouncil.org/placeholder',
-    credentialId: 'CEH-PLANNED'
+    status: 'completed',
+    verificationLink: 'https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-7U34RWENGN.png',
+    credentialId: 'THM-7U34RWENGN'
   },
   {
-    title: 'Blue Team Level 1 (BTL1)',
-    organization: 'Security Blue Team',
-    description: 'Practical Blue Team certification focusing on defensive security operations, threat detection, and incident response. Primary certification goal.',
-    period: 'Planned 2026',
+    title: 'C3SA Cyber Security Analyst ',
+    organization: 'CyberWarFare Labs',
+    description: 'Comprehensive training covering web, network, OS, and cloud security, along with threat hunting, incident response, and SOC operations. Included extensive hands-on labs on OWASP Top 10, pentesting methodologies, and defensive security practices through a practical, project-based approach.',
+    period: '2024',
     icon: '🔵',
     type: 'certification',
-    status: 'coming-soon',
-    verificationLink: 'https://securityblueteam.co.uk/verify/placeholder',
-    credentialId: 'BTL1-PLANNED'
+    status: 'completed',
+    verificationLink: 'https://app.kajabi.com/certificates/0fd1a025',
+    credentialId: '0fd1a025'
   }
 ];
 
-export default function FormationSection() {
+export default function AcademicsSection() {
   const degrees = educationData.filter(item => item.type === 'degree');
   const postgrads = educationData.filter(item => item.type === 'postgrad');
   const certifications = educationData.filter(item => item.type === 'certification');
 
   return (
     <section
-      id="formation"
+      id="academics"
       className="min-h-screen py-20 bg-gradient-to-br from-cyber-dark via-cyber-teal-dark to-cyber-navy"
     >
       <div className="container mx-auto px-6">
@@ -241,7 +241,7 @@ export default function FormationSection() {
               className="flex items-center gap-3 mb-8"
             >
               <BookOpen className="text-cyber-green" size={32} />
-              <h3 className="text-2xl font-bold text-cyber-green">Postgraduate Studies</h3>
+              <h3 className="text-2xl font-bold text-cyber-green">Secondary and Senior Secondary Education</h3>
               <div className="flex-1 h-px bg-cyber-green/20" />
             </m.div>
 
@@ -385,7 +385,7 @@ export default function FormationSection() {
           className="flex justify-center mt-12 md:hidden"
         >
           <Link
-            href="/formation"
+            href="/academics"
             className="inline-flex items-center gap-2 px-8 py-4 bg-cyber-green text-cyber-dark font-bold rounded-lg hover:shadow-neon-green hover:scale-105 transition-all duration-300 group"
           >
             View Complete Details

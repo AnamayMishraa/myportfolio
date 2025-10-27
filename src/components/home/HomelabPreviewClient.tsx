@@ -116,7 +116,7 @@ export default function HomelabPreviewClient({ labs }: HomelabPreviewClientProps
             Detection-first playground
           </h2>
           <p className="text-cyber-gray-light text-lg max-w-3xl mx-auto">
-            Recreate the exact defensive scenarios I build to train SOC teams: zero-to-prod environments, attack simulations, and response playbooks ready to execute.
+            Practical SOC labs, attack simulations, and sandboxed malware analysis with executable threat-hunting and incident response playbooks — from infection to containment.
           </p>
           <m.div
             initial={{ scaleX: 0 }}
