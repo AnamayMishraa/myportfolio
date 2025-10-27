@@ -31,7 +31,7 @@ export const projects: Project[] = [
     title: 'Silly Putty Malware Analyses',
     description:
       'SillyPutty Malware Analysis involved conducting in-depth static and dynamic examination of the SillyPutty malware sample to understand its behavior, persistence mechanisms, and payload execution. The analysis focused on identifying its C2 communication, obfuscation techniques, and indicators of compromise, providing insights into how such loaders operate within Windows environments.',
-  image: '/images/site/blog-cover2.webp',
+  image: '/images/site/sillyputty.webp',
     status: 'Archived',
     statusColor: 'bg-cyber-cyan',
     tags: ['Malware Analyses', 'Behavioural Analyses', 'Static Analyses', 'Dynamic Analyses'],
