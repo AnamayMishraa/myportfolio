@@ -2,7 +2,7 @@
 
 import { type ReactNode } from 'react';
 import { m } from 'framer-motion';
-import { Calendar, Shield, Settings, ArrowRight } from 'lucide-react';
+import { Calendar, Shield, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 interface Experience {
