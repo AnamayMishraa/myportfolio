@@ -43,7 +43,7 @@ export const projects: Project[] = [
     title: 'Invisilogger - Simple Python Keylogger',
     description:
       'A simple Python-based keylogger designed for educational and ethical cybersecurity learning. It records keystrokes locally to demonstrate how keylogging works at a fundamental level and how such behavior can be detected and mitigated during security assessments. Built to enhance understanding of malware behavior and defense mechanisms.',
-  image: '/images/site/blog-cover1.webp',
+  image: '/images/projects/keylog.webp',
     status: 'Completed',
     statusColor: 'bg-cyber-green',
     tags: ['Python', 'Keylogging'],
