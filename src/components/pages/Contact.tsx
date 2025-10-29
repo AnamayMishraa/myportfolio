@@ -16,21 +16,21 @@ const contactMethods: ContactMethod[] = [
   {
     name: 'LinkedIn',
     icon: <Linkedin size={24} />,
-    href: 'https://linkedin.com/in/your-linkedin-username',
+    href: 'https://linkedin.com/in/anamay-mishra',
     description: 'Connect for professional networking',
     color: 'border-cyber-cyan/30 hover:border-cyber-cyan hover:shadow-glow-cyan text-cyber-cyan'
   },
   {
     name: 'GitHub',
     icon: <Github size={24} />,
-    href: 'https://github.com/yourusername',
+    href: 'https://github.com/AnamayMishraa',
     description: 'View my open source projects',
     color: 'border-cyber-gray/30 hover:border-cyber-gray-light hover:shadow-glow-cyan text-cyber-gray-light'
   },
   {
     name: 'Email',
     icon: <Mail size={24} />,
-    href: 'mailto:your.email@example.com',
+    href: 'mailto:anamaymishra26@gmail.com',
     description: 'Send me a secure email',
     color: 'border-cyber-green/30 hover:border-cyber-green hover:shadow-glow-green text-cyber-green'
   }
