@@ -52,7 +52,7 @@ export default async function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#0a1929" />
-        
+        <meta name="google-site-verification" content="2w_hKWFhIrEoFQfPbwIB1LdBMzUQbdzWQlLO9J_Fyok" />
         {/* JSON-LD Structured Data - Sanitized to prevent XSS, with nonce for CSP */}
         <script
           type="application/ld+json"
