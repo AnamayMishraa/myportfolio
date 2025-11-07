@@ -8,7 +8,7 @@ export const metadata: Metadata = generateSEO({
   description: 'Technical articles on Blue Team operations, SIEM, incident response, threat hunting, and defensive cybersecurity. Learn from real-world security projects and best practices.',
   url: '/blog',
   type: 'website',
-  tags: ['blog', 'cybersecurity articles', 'blue team insights', 'security tutorials', 'threat hunting guides', 'SIEM tutorials'],
+  tags: ['blog','rant', 'cybersecurity articles', 'blue team insights', 'security tutorials', 'threat hunting guides', 'SIEM tutorials'],
 });
 
 export default function BlogPage() {
