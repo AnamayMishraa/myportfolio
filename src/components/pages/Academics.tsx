@@ -80,6 +80,18 @@ const educationData: Education[] = [
     status: 'completed'
   },
   // Certifications
+  
+  {
+    title: 'Certified Network Security Practitioner(CNSP)',
+    organization: 'The SecOps Group',
+    description: 'The exam tests knowledge in network security, covering key topics such as network protocols, security configurations in Linux and Windows, basic cryptography, the use of tools like Nmap and Wireshark for security analysis, security in Active Directory environments and social engineering attacks.',
+    period: '2025',
+    icon: '🌐',
+    type: 'certification',
+    status: 'completed',
+    verificationLink: 'https://candidate.speedexam.net/certificate.aspx?SSTATE=am4131EniU8ntjp4bO5mXZ+7V6cWtXR/1bJM9BMYajMLzVqwX7d416LV3DZESgd0VzWGJhG7DWWftKeby4TEa5uE1DwdBpgN1P0rAwoxC7Q=',
+    credentialId: '10782415'
+  },
   {
     title: 'Google Cybersecurity Professional Certificate',
     organization: 'Google',
