@@ -17,6 +17,18 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    title: 'Assistant System Engineer-Trainee',
+    company: <span>Tata Consultancy Services · Full Time</span>,
+    period: 'December 2025 - Present',
+    description: 'Currently working as an Endpoint Security Engineer for a BFSI Client handling endpoint security of 117k+ devices.',
+    icon: <Shield size={20} />,
+    achievements: [
+      'Monitoring endpoint security for 117K+ devices across APAC, EMEA, and AMER, tracking MDAV health, tamper protection, and onboarding compliance.',
+      'Generate daily and weekly security reports to monitor ASR Alerts and endpoint health, identify issues, and improve security visibility.',
+      'Collaborated with service desk teams by reporting issues and providing remediation steps for L1/L2 resolution.'
+    ]
+  },
+  {
     title: 'Cybersecurity Intern',
     company: <span>ShadowFox · Internship</span>,
     period: 'July-2024 - August 2024',
