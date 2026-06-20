@@ -13,10 +13,10 @@ export const siteConfig = {
    * Replace with your name and professional details
    */
   name: 'Anamay Mishra - Cybersecurity Researcher',
-  codename: 'Gh05tWa1ch', // Your preferred username/handle
+  codename: 'Tr1N3tra', // Your preferred username/handle
   author: {
     name: 'Anamay Mishra',
-    codename: 'Gh05tWa1ch',
+    codename: 'Tr1N3tra',
     jobTitle: 'Cybersecurity Researcher ', // Your professional title
     tagline: 'Vigiliance in every packet',
     description: 'Cybersecurity Researcher skilled in SOC operations, Threat Hunting, Vulnerability Analyses, Malware Analysis, and Digital Forensics, exploring both Red and Blue team domains to strengthen digital defense.',
