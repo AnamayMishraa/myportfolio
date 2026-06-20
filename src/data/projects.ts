@@ -16,19 +16,6 @@ export interface Project {
 export const projects: Project[] = [
 
   {
-    title: 'AURA – Autonomous Unified Risk Auditor',
-    description:
-      'AURA (Autonomous Unified Risk Auditor) is an AI-driven compliance monitoring system designed to autonomously evaluate, analyze, and enhance ISO 27001 controls.',
-  image: '/images/projects/ai-grc-n8n.png',
-    status: 'Ongoing',
-    statusColor: 'bg-cyber-green',
-    tags: ['n8n','Automation', 'GRC', 'Compliance', 'Google Gemini LLM', 'JavaScript'],
-    links: {
-      github: 'https://github.com/AnamayMishraa/AURA-Autonomous-Unified-Risk-Auditor',
-      demo: '',
-    },
-  },
-  {
     title: 'PHISHIFIED - Phishing Simulation Suite',
     description:
       'A 360 Degree platform to organize and manage phishing campaigns to analyse employee awareness to phishing attacks.',
@@ -38,6 +25,19 @@ export const projects: Project[] = [
     tags: ['Python','Django', 'Phishing Training', "Employee Awareness"],
     links: {
       github: 'https://github.com/AnamayMishraa/Phishified-Phishing-Simulation-Suite',
+      demo: '',
+    },
+  },
+  {
+    title: 'AURA – Autonomous Unified Risk Auditor',
+    description:
+      'AURA (Autonomous Unified Risk Auditor) is an AI-driven compliance monitoring system designed to autonomously evaluate, analyze, and enhance ISO 27001 controls.',
+  image: '/images/projects/ai-grc-n8n.png',
+    status: 'Ongoing',
+    statusColor: 'bg-cyber-green',
+    tags: ['n8n','Automation', 'GRC', 'Compliance', 'Google Gemini LLM', 'JavaScript'],
+    links: {
+      github: 'https://github.com/AnamayMishraa/AURA-Autonomous-Unified-Risk-Auditor',
       demo: '',
     },
   },
