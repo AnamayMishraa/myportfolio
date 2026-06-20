@@ -19,7 +19,7 @@ export const siteConfig = {
     codename: 'Tr1N3tra',
     jobTitle: 'Cybersecurity Researcher ', // Your professional title
     tagline: 'See Beyond the Signal',
-    description: 'Cybersecurity Researcher focused on Threat Detection, Malware Analysis, Digital Forensics, and Security Operations. Passionate about understanding adversaries, strengthening defenses, and turning security data into actionable intelligence.',
+    description: 'Cybersecurity Professional specializing in Endpoint Security, Compliance, Threat Hunting, Security Operations, and Malware Analysis. Passionate about strengthening enterprise security through proactive defense, visibility, and risk reduction.',
     organization: 'Cybersecurity',
   },
 
