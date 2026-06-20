@@ -42,7 +42,7 @@ const LabCard = memo(function LabCard({ lab, index }: LabCardProps) {
           <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyber-green transition-colors">
             {lab.title}
           </h3>
-          <p className="text-sm text-cyber-gray mb-4 leading-relaxed">
+          <p className="text-sm text-cyber-gray-light mb-4 leading-relaxed">
             {lab.description}
           </p>
 

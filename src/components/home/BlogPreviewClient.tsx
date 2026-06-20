@@ -102,7 +102,7 @@ export default function BlogPreviewClient({ posts: latestPosts }: BlogPreviewCli
                     </h3>
                   </Link>
 
-                    <p className="text-cyber-gray mb-4 leading-relaxed text-sm flex-1">
+                    <p className="text-cyber-gray-light mb-4 leading-relaxed text-sm flex-1">
                     {post.description}
                   </p>
 

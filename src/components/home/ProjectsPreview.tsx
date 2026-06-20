@@ -65,7 +65,7 @@ export default function ProjectsPreviewSection() {
                   {project.title}
                 </h3>
 
-                <p className="text-cyber-gray mb-6 leading-relaxed">
+                <p className="text-cyber-gray-light mb-6 leading-relaxed">
                   {project.description}
                 </p>
 

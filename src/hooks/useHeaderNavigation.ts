@@ -22,24 +22,11 @@ export function useHeaderNavigation() {
   const isHome = pathname === '/';
 
   const getNavLinks = (): NavLink[] => {
-    if (isHome) {
-      return [
-        { href: '#home', label: 'Home', isAnchor: true },
-        { href: '/about', label: 'About', isAnchor: false },
-        { href: '#projects-preview', label: 'Projects', isAnchor: true },
-        { href: '#homelabs-preview', label: 'Home Labs', isAnchor: true },
-        { href: '#academics', label: 'Academics', isAnchor: true },
-        { href: '#experience', label: 'Experience', isAnchor: true },
-        { href: '/blog', label: 'Blog', isAnchor: false },
-        { href: '#contact', label: 'Contact', isAnchor: true },
-      ];
-    }
-
     return [
       { href: '/', label: 'Home', isAnchor: false },
       { href: '/about', label: 'About', isAnchor: false },
       { href: '/projects', label: 'Projects', isAnchor: false },
-  { href: '/homelabs', label: 'Home Labs', isAnchor: false },
+      { href: '/homelabs', label: 'Home Labs', isAnchor: false },
       { href: '/academics', label: 'Academics', isAnchor: false },
       { href: '/experience', label: 'Experience', isAnchor: false },
       { href: '/blog', label: 'Blog', isAnchor: false },

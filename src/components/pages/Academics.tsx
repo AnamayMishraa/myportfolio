@@ -201,7 +201,7 @@ export default function AcademicsSection() {
                       {item.organization}
                     </p>
 
-                    <p className="text-cyber-gray leading-relaxed text-sm">
+                    <p className="text-cyber-gray-light leading-relaxed text-sm">
                       {item.description}
                     </p>
 
@@ -300,7 +300,7 @@ export default function AcademicsSection() {
                       {item.organization}
                     </p>
 
-                    <p className="text-cyber-gray leading-relaxed text-sm">
+                    <p className="text-cyber-gray-light leading-relaxed text-sm">
                       {item.description}
                     </p>
                   </div>
@@ -360,7 +360,7 @@ export default function AcademicsSection() {
                       </span>
                     </div>
 
-                    <p className="text-cyber-gray leading-relaxed text-sm mb-4">
+                    <p className="text-cyber-gray-light leading-relaxed text-sm mb-4">
                       {item.description}
                     </p>
 

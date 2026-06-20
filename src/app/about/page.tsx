@@ -1,6 +1,6 @@
 'use client';
 
-import { Header, FloatingNav } from '@/components/layout';
+import { Header } from '@/components/layout';
 import { m } from 'framer-motion';
 import { Shield, Zap, Brain, Target, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
@@ -10,7 +10,6 @@ export default function AboutPage() {
   return (
     <main className="relative min-h-screen bg-gradient-to-br from-cyber-darker via-cyber-dark to-cyber-navy cyber-bg-animated">
       <Header />
-      <FloatingNav />
 
       <section className="pt-32 pb-20">
         <div className="container mx-auto px-6">
@@ -111,7 +110,7 @@ export default function AboutPage() {
               <div className="bg-cyber-teal-dark/30 backdrop-blur-sm border border-cyber-cyan/20 rounded-xl p-6 hover:border-cyber-cyan/50 transition-all duration-300">
                 <Shield className="text-cyber-cyan mb-4" size={32} />
                 <h3 className="text-xl font-bold text-white mb-3">Defensive Security</h3>
-                <p className="text-cyber-gray leading-relaxed">
+                <p className="text-cyber-gray-light leading-relaxed">
                   Focused on threat detection, incident response, and continuous security monitoring. I strengthen defenses by understanding adversarial tactics and leveraging them to build resilient protection mechanisms.
                 </p>
               </div>
@@ -119,7 +118,7 @@ export default function AboutPage() {
               <div className="bg-cyber-teal-dark/30 backdrop-blur-sm border border-cyber-green/20 rounded-xl p-6 hover:border-cyber-green/50 transition-all duration-300">
                 <Brain className="text-cyber-green mb-4" size={32} />
                 <h3 className="text-xl font-bold text-white mb-3">Analytical Thinking</h3>
-                <p className="text-cyber-gray leading-relaxed">
+                <p className="text-cyber-gray-light leading-relaxed">
                   I approach cybersecurity challenges with a structured, scientific mindset — deconstructing complex issues into clear, actionable parts for precise and effective solutions.
                 </p>
               </div>
@@ -127,7 +126,7 @@ export default function AboutPage() {
               <div className="bg-cyber-teal-dark/30 backdrop-blur-sm border border-cyber-orange/20 rounded-xl p-6 hover:border-cyber-orange/50 transition-all duration-300">
                 <Zap className="text-cyber-orange mb-4" size={32} />
                 <h3 className="text-xl font-bold text-white mb-3">Rapid Response</h3>
-                <p className="text-cyber-gray leading-relaxed">
+                <p className="text-cyber-gray-light leading-relaxed">
                   Skilled in swift detection and containment of security incidents. I minimize impact through efficient triage, real-time decision-making, and coordinated response strategies..
                 </p>
               </div>
@@ -135,7 +134,7 @@ export default function AboutPage() {
               <div className="bg-cyber-teal-dark/30 backdrop-blur-sm border border-cyber-cyan/20 rounded-xl p-6 hover:border-cyber-cyan/50 transition-all duration-300">
                 <Target className="text-cyber-cyan mb-4" size={32} />
                 <h3 className="text-xl font-bold text-white mb-3">Threat Hunting</h3>
-                <p className="text-cyber-gray leading-relaxed">
+                <p className="text-cyber-gray-light leading-relaxed">
                   Dedicated to proactively uncovering hidden threats before they escalate. I apply data-driven analysis and pattern recognition to identify anomalies and early indicators of compromise..
                 </p>
               </div>

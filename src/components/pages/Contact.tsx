@@ -100,7 +100,7 @@ export default function ContactSection() {
                 <h3 className="text-base font-bold text-white mb-1">
                   {method.name}
                 </h3>
-                <p className="text-cyber-gray text-xs text-center">
+                <p className="text-cyber-gray-light text-xs text-center">
                   {method.description}
                 </p>
                 <ExternalLink

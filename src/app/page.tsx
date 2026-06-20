@@ -41,7 +41,7 @@ export default function Home() {
       <FloatingNav />
 
       {/* Main Content Sections */}
-      <section id="home" aria-labelledby="home-heading">
+      <section aria-labelledby="home-heading">
         <HomeSection translations={homeTranslations} />
       </section>
       

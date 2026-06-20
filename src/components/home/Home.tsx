@@ -1,7 +1,7 @@
 'use client';
 
 import { m } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Download } from 'lucide-react';
 import { memo, useState, useEffect } from 'react';
 import { siteConfig } from '@/config/site.config';
 
@@ -102,23 +102,33 @@ function HomeSection({ translations }: HomeSectionProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-lg text-cyber-gray mb-12 leading-relaxed max-w-3xl"
+            className="text-lg text-cyber-gray-light mb-12 leading-relaxed max-w-3xl"
           >
             {t.description}
           </m.p>
 
-          {/* CTA Button */}
+          {/* CTA Buttons */}
           <m.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
+            className="flex flex-wrap gap-4"
           >
             <a
-              href="#projects-preview"
+              href="#projects"
               className="inline-flex items-center gap-3 px-8 py-4 bg-cyber-cyan text-cyber-dark font-bold rounded-lg hover:shadow-neon-cyan hover:scale-105 transition-all duration-300 group"
             >
               {t.cta}
               <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform" />
+            </a>
+            <a
+              href={siteConfig.cvUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-8 py-4 border-2 border-cyber-green/50 text-cyber-green font-bold rounded-lg hover:shadow-neon-green hover:border-cyber-green hover:scale-105 transition-all duration-300 group"
+            >
+              <Download size={20} className="group-hover:translate-y-1 transition-transform" />
+              Download CV
             </a>
           </m.div>
         </div>

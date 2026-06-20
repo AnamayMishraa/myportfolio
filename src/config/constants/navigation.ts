@@ -36,13 +36,13 @@ export const NAV_ITEMS: NavItem[] = [
     href: '/' 
   },
   { 
-    id: 'projects-preview', 
+    id: 'projects', 
     icon: FolderGit2, 
     label: 'Projects', 
     href: '/projects' 
   },
   { 
-    id: 'homelabs-preview', 
+    id: 'homelabs', 
     icon: FlaskConical, 
     label: 'Home Labs', 
     href: '/homelabs' 
@@ -60,7 +60,7 @@ export const NAV_ITEMS: NavItem[] = [
     href: '/experience' 
   },
   { 
-    id: 'blog-preview', 
+    id: 'blog', 
     icon: FileText, 
     label: 'Blog', 
     href: '/blog' 

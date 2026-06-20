@@ -106,7 +106,7 @@ export default function BlogSectionClient({ featuredPost, recentPosts, allCatego
                   </h3>
                 </Link>
 
-                <p className="text-cyber-gray mb-6 leading-relaxed">
+                <p className="text-cyber-gray-light mb-6 leading-relaxed">
                   {featuredPost.description}
                 </p>
 
@@ -248,7 +248,7 @@ export default function BlogSectionClient({ featuredPost, recentPosts, allCatego
                         </h4>
 
                         {/* Description */}
-                        <p className="text-cyber-gray text-sm mb-4 line-clamp-3 flex-1">
+                        <p className="text-cyber-gray-light text-sm mb-4 line-clamp-3 flex-1">
                           {post.description}
                         </p>
 
@@ -277,7 +277,7 @@ export default function BlogSectionClient({ featuredPost, recentPosts, allCatego
             >
               <div className="text-6xl mb-4">🔍</div>
               <h3 className="text-2xl font-bold text-white mb-2">No articles found</h3>
-              <p className="text-cyber-gray mb-6">
+              <p className="text-cyber-gray-light mb-6">
                 Try adjusting your search or filters
               </p>
               <button

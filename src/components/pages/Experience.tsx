@@ -151,7 +151,7 @@ export default function ExperienceSection() {
                     </p>
 
                     {/* Description */}
-                    <p className="text-cyber-gray leading-relaxed mb-4 text-left">
+                    <p className="text-cyber-gray-light leading-relaxed mb-4 text-left">
                       {exp.description}
                     </p>
 

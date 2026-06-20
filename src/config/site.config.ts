@@ -55,6 +55,12 @@ export const siteConfig = {
   },
 
   /**
+   * CV/Resume download
+   * Place your CV PDF at public/cv/ directory
+   */
+  cvUrl: '/cv/resume.pdf',
+
+  /**
    * Default OG image
    * Path to your social media preview image (recommended: 1200x630px)
    */
