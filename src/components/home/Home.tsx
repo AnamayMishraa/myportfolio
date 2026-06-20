@@ -282,36 +282,36 @@ function HomeSection({ translations }: HomeSectionProps) {
             </defs>
           </svg>
 
-          {/* Floating Labels */}
-          <m.div
-            className="absolute top-10 right-10 px-4 py-2 bg-cyber-navy/80 border border-cyber-cyan/30 rounded-lg backdrop-blur-sm"
-            animate={{
-              y: [0, -10, 0],
-            }}
-            transition={{ duration: 3, repeat: Infinity }}
-          >
-            <p className="text-xs text-cyber-cyan font-mono">SIEM</p>
-          </m.div>
-
-          <m.div
-            className="absolute bottom-10 left-10 px-4 py-2 bg-cyber-navy/80 border border-cyber-green/30 rounded-lg backdrop-blur-sm"
-            animate={{
-              y: [0, 10, 0],
-            }}
-            transition={{ duration: 3, repeat: Infinity, delay: 1 }}
-          >
-            <p className="text-xs text-cyber-green font-mono">EDR</p>
-          </m.div>
-
-          <m.div
-            className="absolute top-1/3 left-0 px-4 py-2 bg-cyber-navy/80 border border-cyber-orange/30 rounded-lg backdrop-blur-sm"
-            animate={{
-              x: [-10, 0, -10],
-            }}
-            transition={{ duration: 3, repeat: Infinity, delay: 0.5 }}
-          >
-            <p className="text-xs text-cyber-orange font-mono">IDS</p>
-          </m.div>
+          {/* Floating Security Labels */}
+          {[
+            { label: 'SIEM', color: '#1ad1ff', dot: 'bg-cyber-cyan', x: 'top-6 right-24', cx: '#1ad1ff' },
+            { label: 'EDR', color: '#00ffae', dot: 'bg-cyber-green', x: 'bottom-6 left-6', cx: '#00ffae' },
+            { label: 'SOAR', color: '#1ad1ff', dot: 'bg-cyber-cyan', x: 'top-1/3 left-4', cx: '#1ad1ff' },
+            { label: 'DFIR', color: '#00ffae', dot: 'bg-cyber-green', x: 'bottom-1/3 right-20', cx: '#00ffae' },
+            { label: 'IDS/IPS', color: '#ff6b35', dot: 'bg-cyber-orange', x: 'top-1/4 right-24', cx: '#ff6b35' },
+            { label: 'VAPT', color: '#ff002b', dot: 'bg-cyber-red', x: 'bottom-1/4 left-12', cx: '#ff002b' },
+          ].map((item, i) => (
+            <m.div
+              key={item.label}
+              className={`absolute ${item.x} px-3 py-1.5 rounded-lg backdrop-blur-sm`}
+              style={{
+                backgroundColor: `${item.cx}18`,
+                borderColor: `${item.cx}40`,
+                borderWidth: 1,
+                borderStyle: 'solid',
+              }}
+              animate={{
+                y: [0, -8, 0],
+                opacity: [0.6, 1, 0.6],
+              }}
+              transition={{ duration: 3, repeat: Infinity, delay: i * 0.4 }}
+            >
+              <div className="flex items-center gap-2">
+                <div className={`w-1.5 h-1.5 ${item.dot} rounded-full animate-pulse`} />
+                <span className="text-xs font-mono" style={{ color: item.color }}>{item.label}</span>
+              </div>
+            </m.div>
+          ))}
         </m.div>
       </div>
       </div>
