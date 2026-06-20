@@ -28,8 +28,8 @@ export const siteConfig = {
    * Update with your actual domain
    */
   urls: {
-    base: 'https://cybertified.in',
-    canonical: 'https://cybertified.in',
+    base: 'https://portfolio.cybertified.in',
+    canonical: 'https://portfolio.cybertified.in',
   },
 
   /**
