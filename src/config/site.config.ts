@@ -18,8 +18,8 @@ export const siteConfig = {
     name: 'Anamay Mishra',
     codename: 'Tr1N3tra',
     jobTitle: 'Cybersecurity Researcher ', // Your professional title
-    tagline: 'Vigiliance in every packet',
-    description: 'Cybersecurity Researcher skilled in SOC operations, Threat Hunting, Vulnerability Analyses, Malware Analysis, and Digital Forensics, exploring both Red and Blue team domains to strengthen digital defense.',
+    tagline: 'See Beyond the Signal',
+    description: 'Cybersecurity Researcher focused on Threat Detection, Malware Analysis, Digital Forensics, and Security Operations. Passionate about understanding adversaries, strengthening defenses, and turning security data into actionable intelligence.',
     organization: 'Cybersecurity',
   },
 
